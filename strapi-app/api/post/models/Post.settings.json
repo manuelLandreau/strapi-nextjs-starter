@@ -1,0 +1,21 @@
+{
+  "connection": "default",
+  "collectionName": "article",
+  "info": {
+    "name": "post",
+    "description": "Blog's articles"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "default": "",
+      "type": "string"
+    },
+    "content": {
+      "default": "",
+      "type": "text"
+    }
+  }
+}
