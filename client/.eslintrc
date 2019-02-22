@@ -1,10 +1,25 @@
 {
-  "extends": ["airbnb"],
+  "root": true,
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "parserOptions": {
+    "parser": "babel-eslint"
+  },
+  "extends": [
+    "airbnb"
+  ],
   "rules": {
     "react/jsx-filename-extension": false,
     "react/jsx-indent": false,
     "react/react-in-jsx-scope": false,
     "react/prop-types": false,
-    "indent": ["error", 4]
+    "object-curly-spacing": "off",
+    "no-param-reassign": "off",
+    "indent": [
+      "error",
+      4
+    ]
   }
 }

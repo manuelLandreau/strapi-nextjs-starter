@@ -1,7 +1,7 @@
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Header from './Header';
+import Footer from './Footer';
 
-export default function Page({ children }) {
+export default function Page({children}) {
     return (
         <div>
             <style jsx>

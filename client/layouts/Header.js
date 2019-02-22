@@ -1,5 +1,6 @@
 import Head from 'next/head';
-import { useState } from 'react';
+import {useState} from 'react';
+import Link from 'next/link';
 import {
     Collapse,
     Navbar,
@@ -34,11 +35,13 @@ export default function Header() {
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="ml-auto" navbar>
                         <NavItem>
-                            <NavLink href="/blog">Blog</NavLink>
+                            <NavLink>
+                                <Link href="/blog">Blog</Link>
+                            </NavLink>
                         </NavItem>
                         <UncontrolledDropdown nav inNavbar>
                             <DropdownToggle nav caret>
-                Options
+                                Options
                             </DropdownToggle>
                             <DropdownMenu right>
                                 <DropdownItem>Option 1</DropdownItem>

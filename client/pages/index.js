@@ -1,4 +1,4 @@
-import { Jumbotron } from 'reactstrap';
+import {Jumbotron} from 'reactstrap';
 import Page from '../layouts/Page';
 
 export default function Home() {

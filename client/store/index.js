@@ -1,4 +1,4 @@
-import { createStore } from 'easy-peasy';
+import {createStore} from 'easy-peasy';
 import blogStore from './blogStore';
 
 export default createStore({
