@@ -1,4 +1,7 @@
-# Strapi + NextJS = ♥
+# OUTDATED PROJECT !
+practices changed, and I will not update it anymore
+
+# Strapi + NextJS
 
 From the [strapi-docker repository](https://github.com/strapi/strapi-docker), I add a 
 [NextJS](https://nextjs.org) starter architecture, 
